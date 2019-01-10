@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\Victoria\\Epam\\WebApplication_Forum\\DAL\\DAL.csproj",
+    "projectName": "DAL",
+    "projectPath": "D:\\Victoria\\Epam\\WebApplication_Forum\\DAL\\DAL.csproj",
+    "outputPath": "D:\\Victoria\\Epam\\WebApplication_Forum\\DAL\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "EntityFramework": {
+          "target": "Package",
+          "version": "[6.2.0, )"
+        },
+        "Microsoft.AspNet.Identity.EntityFramework": {
+          "target": "Package",
+          "version": "[2.2.2, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.0.0-preview.18572.1, )"
+        },
+        "Migrations": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "System.ComponentModel.Annotations": {
+          "target": "Package",
+          "version": "[4.6.0-preview.18571.3, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

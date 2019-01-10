@@ -1,0 +1,9 @@
+D:\Victoria\Epam\WebApplication_Forum\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+D:\Victoria\Epam\WebApplication_Forum\DAL\bin\Debug\netstandard2.0\DAL.dll
+D:\Victoria\Epam\WebApplication_Forum\DAL\bin\Debug\netstandard2.0\DAL.pdb
+D:\Victoria\Epam\WebApplication_Forum\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+D:\Victoria\Epam\WebApplication_Forum\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+D:\Victoria\Epam\WebApplication_Forum\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+D:\Victoria\Epam\WebApplication_Forum\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+D:\Victoria\Epam\WebApplication_Forum\DAL\obj\Debug\netstandard2.0\DAL.dll
+D:\Victoria\Epam\WebApplication_Forum\DAL\obj\Debug\netstandard2.0\DAL.pdb
