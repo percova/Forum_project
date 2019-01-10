@@ -1,0 +1,12 @@
+D:\Victoria\Epam\WebApplication_Forum\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+D:\Victoria\Epam\WebApplication_Forum\BLL\bin\Debug\netstandard2.0\BLL.dll
+D:\Victoria\Epam\WebApplication_Forum\BLL\bin\Debug\netstandard2.0\BLL.pdb
+D:\Victoria\Epam\WebApplication_Forum\BLL\bin\Debug\netstandard2.0\DAL.dll
+D:\Victoria\Epam\WebApplication_Forum\BLL\bin\Debug\netstandard2.0\DAL.pdb
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.dll
+D:\Victoria\Epam\WebApplication_Forum\BLL\obj\Debug\netstandard2.0\BLL.pdb
