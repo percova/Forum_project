@@ -21,8 +21,23 @@ namespace DAL.Repositories
         {
             return db.Users;
         }
-        
-        public ApplicationUser Get(int id)
+
+        public IEnumerable<ApplicationUser> GetByTopicId(string topicId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<ApplicationUser> GetRepies(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<ApplicationUser> GetByUser(string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ApplicationUser Get(string id)
         {
             return db.Users.Find(id);
         }
@@ -42,7 +57,7 @@ namespace DAL.Repositories
             db.Entry(newUser).State = EntityState.Modified;
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
             ApplicationUser user = db.Users.Find(id);
             if (user != null)

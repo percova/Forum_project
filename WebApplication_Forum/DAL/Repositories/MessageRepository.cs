@@ -22,10 +22,26 @@ namespace DAL.Repositories
             return db.Messeges.Include( m => m.Topic);
         }
 
-        public Message Get(int id)
+        public IEnumerable<Message> GetRepies(string id)
+        {
+            return db.Messeges.Where( x => x.ReplyToId != null & x.ReplyToId == id ).ToList();
+        }
+
+        public IEnumerable<Message> GetByUser(string userId)
+        {
+            return db.Messeges.Where(x => x.UserId != null & x.UserId == userId);
+        }
+
+        public Message Get(string id)
         {
             return db.Messeges.Find(id);
         }
+
+        public IEnumerable<Message> GetByTopicId(string topicId)
+        {
+            return db.Messeges.Include(x => x.User).Include(x => x.Topic).Where(x => x.Topic.Id == topicId);
+        }
+
 
         public IEnumerable<Message> Find(Func<Message, bool> predicate)
         {
@@ -42,7 +58,7 @@ namespace DAL.Repositories
             db.Entry(newMessage).State = EntityState.Modified;
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
             Message message = db.Messeges.Find(id);
             if (message != null)

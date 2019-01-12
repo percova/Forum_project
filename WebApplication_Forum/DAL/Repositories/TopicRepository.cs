@@ -19,10 +19,25 @@ namespace DAL.Repositories
         
         public IEnumerable<Topic> GetAll()
         {
-            return db.Topics;
+            return db.Topics.ToList();
         }
 
-        public Topic Get(int id)
+        public IEnumerable<Topic> GetByTopicId(string topicId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Topic> GetRepies(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Topic> GetByUser(string userId)
+        {
+            return db.Topics.Where(x => x.UserId != null & x.UserId == userId);
+        }
+
+        public Topic Get(string  id)
         {
             return db.Topics.Find(id);
         }
@@ -42,7 +57,7 @@ namespace DAL.Repositories
             db.Entry(newTopic).State = EntityState.Modified;
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
             Topic topic = db.Topics.Find(id);
             if (topic != null)
