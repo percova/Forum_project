@@ -3172,6 +3172,7 @@
     ".NETStandard,Version=v2.0": [
       "AutoMapper >= 8.0.0",
       "DAL >= 1.0.0",
+      "Microsoft.AspNet.Identity.EntityFramework >= 2.2.2",
       "NETStandard.Library >= 2.0.3",
       "Ninject >= 4.0.0-beta-0134"
     ]
@@ -3224,6 +3225,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Microsoft.AspNet.Identity.EntityFramework": {
+            "target": "Package",
+            "version": "[2.2.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
